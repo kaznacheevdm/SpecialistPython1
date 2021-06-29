@@ -4,3 +4,12 @@
 # Формат выходных данных: требуется вывести название времени года
 
 # TODO: your code here
+mounth = int(input("Введите номер месяца: "))
+if mounth>2 and mounth < 6:
+    print("весна")
+elif mounth > 5 and mounth < 9:
+    print("лето")
+elif mounth > 8 and mounth < 12:
+    print("осень")
+else:
+    print("зима")
