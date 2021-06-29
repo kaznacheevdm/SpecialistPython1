@@ -3,3 +3,7 @@
 # Формат выходных данных: Если число оканчивается цифрой 5, вывести «YES», в противном случае — вывести «NO».
 
 # TODO: your code here
+
+date = int(input("Введите целое число: "))
+unit = date%10
+print("YES") if unit == 5 else print("NO")
