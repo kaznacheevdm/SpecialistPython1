@@ -5,3 +5,10 @@
 # Для всех остальных случаев не выводить ничего.
 
 # TODO: your code here
+unit = int(input("введите число: "))
+if not unit%3 and not unit%5:
+    print("FooBar")
+elif not unit%3:
+    print("Foo")
+elif not unit%5:
+    print("Bar")
