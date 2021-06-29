@@ -3,3 +3,9 @@
 # Формат выходных данных: Выведите «YES», если треугольник равнобедренный, и «NO» в противном случае.
 
 # TODO: your code here
+
+facet1 = int(input("Введите длину первой стороны треугольника: "))
+facet2 = int(input("Введите длину второй стороны треугольника: "))
+facet3 = int(input("Введите длину третьей стороны треугольника: "))
+
+print("YES") if facet1 == facet2 or facet2 == facet3 or facet1 == facet3  else print("NO")
