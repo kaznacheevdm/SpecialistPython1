@@ -10,3 +10,11 @@
 # 1234
 
 # TODO: your code here
+stairs = int(input("Введите число ступеней: "))
+step = 1
+flat=0
+while step <= stairs:
+    flat=flat*10+step
+    print(flat)
+    step+=1
+
