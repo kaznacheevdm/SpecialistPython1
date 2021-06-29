@@ -18,3 +18,16 @@
 
 
 # TODO: your code here
+size = int(input("размер квадрата: "))
+i = 1 #count strings
+while i <= size:
+    string ='' 
+    j=1 #count collums
+    while j <= size:
+        if j == i or j == size+1-i:
+            string +="#"
+        else:
+            string +=" "
+        j += 1
+    i += 1
+    print(string)
