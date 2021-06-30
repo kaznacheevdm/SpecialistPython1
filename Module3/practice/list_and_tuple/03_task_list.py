@@ -2,3 +2,13 @@
 # Вывести на экран сумму всех элементов.
 
 # TODO: your code here
+import random
+n = random.randint(1,10)
+lst=[]
+while len(lst)<n:
+    lst.append(random.randint(-10,10))
+summ=0
+for el in lst:
+    summ+=el
+print (lst)
+print(summ)
