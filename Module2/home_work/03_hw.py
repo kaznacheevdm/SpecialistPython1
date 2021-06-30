@@ -29,3 +29,8 @@
 # 20 199.80 Rub.
 
 # TODO: your code here
+cost=float(input("Введите стоимость единицы товара: "))
+i=0
+while i<20:
+    print(i+1, round((i+1)*cost,2),"Rub." )
+    i+=1
