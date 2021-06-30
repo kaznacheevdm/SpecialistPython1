@@ -8,3 +8,13 @@
 # Например, 1 корова, 2 коровы, 5 коров, 125 коров.
 
 # TODO: your code here
+n=int(input("Введите колличество коров на лугу: "))
+cow="kopoB"
+if n%10==1 and (n!=11 or n%100!=11):
+    cow+="a"
+    print("На лугу пасется",n,cow)
+elif n>=5 and n<=20 or n%100==11:
+    print("На лугу пасется",n,cow)
+elif n%10==2 or n%10==3 or n%10==4:
+    cow+="bl"
+    print("На лугу пасется",n,cow)
